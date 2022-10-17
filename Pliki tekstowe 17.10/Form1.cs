@@ -15,6 +15,18 @@ namespace Pliki_tekstowe_17._10
         public Form1()
         {
             InitializeComponent();
+            
+            
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
