@@ -121,6 +121,7 @@
             this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "losuj nowy";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button1
             // 
