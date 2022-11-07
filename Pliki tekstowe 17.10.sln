@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pliki tekstowe 17.10", "Pliki tekstowe 17.10\Pliki tekstowe 17.10.csproj", "{2C9C90CF-181F-4B12-948A-BCA7CA98515E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pliki-tekstowe2", "Pliki-tekstowe2\Pliki-tekstowe2.csproj", "{A5A4354C-E3E0-4270-AAAD-1EF122001D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2C9C90CF-181F-4B12-948A-BCA7CA98515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C9C90CF-181F-4B12-948A-BCA7CA98515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C9C90CF-181F-4B12-948A-BCA7CA98515E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A4354C-E3E0-4270-AAAD-1EF122001D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A4354C-E3E0-4270-AAAD-1EF122001D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A4354C-E3E0-4270-AAAD-1EF122001D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A4354C-E3E0-4270-AAAD-1EF122001D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
