@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pliki_tekstowe2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -92,8 +93,8 @@ namespace Pliki_tekstowe_17._10
             else
             {
                 MessageBox.Show("Zalogowales sie");
-                Form Form2 = new Form();
-                Form2.Show();
+                Form2 f = new Form2();
+                f.ShowDialog();
                 this.Hide();
             }
         }
@@ -101,6 +102,16 @@ namespace Pliki_tekstowe_17._10
         private void label5_Click(object sender, EventArgs e)
         {
             Picture_generator();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.PasswordChar = '*';
         }
     }
 }

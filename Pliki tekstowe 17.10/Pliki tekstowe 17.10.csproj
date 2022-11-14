@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pliki-tekstowe2\Pliki-tekstowe2.csproj">
+      <Project>{A5A4354C-E3E0-4270-AAAD-1EF122001D08}</Project>
+      <Name>Pliki-tekstowe2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
