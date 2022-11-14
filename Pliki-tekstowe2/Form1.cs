@@ -16,5 +16,26 @@ namespace Pliki_tekstowe2
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var imie = textBox2.Text;
+            var nazwisko = textBox3.Text;
+            var klasa = textBox4.Text;
+
+            if(imie == "" || nazwisko == "" || klasa == "")
+            {
+                MessageBox.Show("Pola nie moga byc puste");
+            }
+            else
+            {
+
+            }
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
