@@ -14,12 +14,12 @@ namespace Pliki_tekstowe_17._10
     public partial class Form1 : Form
     {
         public string kod_z_obrazka = "";
-        public Image pic1 = Image.FromFile(@"C:\\Users\\student\\Desktop\\1.png");
-        public Image pic2 = Image.FromFile(@"C:\\Users\\student\\Desktop\\2.png");
-        public Image pic3 = Image.FromFile(@"C:\\Users\\student\\Desktop\\3.png");
-        public Image pic4 = Image.FromFile(@"C:\\Users\\student\\Desktop\\4.png");
-        public Image pic5 = Image.FromFile(@"C:\\Users\\student\\Desktop\\5.png");
-        public Image pic6 = Image.FromFile(@"C:\\Users\\student\\Desktop\\6.png");
+        public Image pic1 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\1.png");
+        public Image pic2 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\2.png");
+        public Image pic3 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\3.png");
+        public Image pic4 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\4.png");
+        public Image pic5 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\5.png");
+        public Image pic6 = Image.FromFile(@"C:\\Users\\tyszk\\Desktop\\6.png");
         public Form1()
         {
             InitializeComponent();
